@@ -1,27 +1,22 @@
 {
-  "name": "prepr",
+  "name": "prepr-nodejs",
   "version": "3.4.0",
   "description": "A node.js wrapper for the Prepr REST API",
   "main": "lib/prepr.js",
   "types": "types",
   "engines": {
-    "node": ">=10.0.0",
-    "yarn": "YARN NO LONGER USED - use npm instead."
-  },
-  "scripts": {
-    "test": "node lib/test.js",
-    "dtslint": "dtslint types"
+    "node": ">=10.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/prepr/prepr-nodejs.git"
+    "url": "git+ssh://git@github.com/Graphlr/prepr-nodejs"
   },
   "keywords": [
     "prepr"
   ],
   "author": "Prepr (https://www.prepr.io/)",
   "license": "BSD-2-Clause",
-  "homepage": "https://github.com/prepr/prepr-nodejs",
+  "homepage": "https://github.com/Graphlr/prepr-nodejs",
   "dependencies": {
     "safe-buffer": "^5.1.2",
     "scmp": "^2.0.0"
