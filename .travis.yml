@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "12"
+  - "11"
+  - "10"
+env:
+  - PRP_ACCESSTOKEN="d3a4f3989539fafbe4c6e4b2e719c1e99f3db2f6ea6cc76eabd6cbef9aaf4fa3"
+
+jobs:
+  include:
+    - stage: lint
+      script: npm run dtslint
