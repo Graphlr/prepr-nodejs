@@ -13,7 +13,7 @@ Requirements
 Installation
 ------------
 
-`npm install prepr`
+`npm install prepr-nodejs`
 
 
 Usage
@@ -22,10 +22,10 @@ Usage
 Initialize the library first. Don't forget to replace `<YOUR_ACCESS_TOKEN>` with your access token.
 
 ```javascript
-var prepr = require('prepr')('<YOUR_ACCESS_TOKEN>');
+var prepr = require('prepr-nodejs')('<YOUR_ACCESS_TOKEN>');
 ```
 
-Now we can send API requests through node. Let's use getting your publications overview as an example:
+Now we can send API requests through node. Let's getting your publication list as an example:
 
 ```javascript
 // Get publications

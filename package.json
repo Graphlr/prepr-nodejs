@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Graphlr/prepr-nodejs"
+    "url": "git+ssnph://git@github.com/Graphlr/prepr-nodejs.git"
   },
   "keywords": [
     "prepr"
@@ -24,5 +24,14 @@
   "devDependencies": {
     "dtslint": "^0.9.3",
     "nock": "^11.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Graphlr/prepr-nodejs/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
