@@ -25,7 +25,7 @@ Initialize the library first. Don't forget to replace `<YOUR_ACCESS_TOKEN>` with
 var prepr = require('prepr-nodejs')('<YOUR_ACCESS_TOKEN>');
 ```
 
-Now we can send API requests through node. Let's getting your publication list as an example:
+Now we can send API requests through Node. Let's getting your publication list as an example:
 
 ```javascript
 // Get publications
@@ -35,7 +35,9 @@ prepr.get('/publications', function (err, data) {
   }
   console.log(data);
 });
+```
 
+```json
 // Result
 {
   "items": [],
