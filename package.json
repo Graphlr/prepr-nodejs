@@ -1,6 +1,6 @@
 {
   "name": "prepr-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node.js wrapper for the Prepr REST API",
   "main": "lib/prepr.js",
   "types": "types",
