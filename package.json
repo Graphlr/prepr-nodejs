@@ -1,6 +1,6 @@
 {
   "name": "prepr-nodejs",
-  "version": "2.0.2",
+  "version": "2.1.1",
   "description": "A node.js wrapper for the Prepr REST API",
   "main": "lib/prepr.js",
   "types": "types",
@@ -18,8 +18,8 @@
   "license": "BSD-2-Clause",
   "homepage": "https://github.com/Graphlr/prepr-nodejs",
   "dependencies": {
-    "safe-buffer": "^5.1.2",
-    "scmp": "^2.0.0"
+    "murmurhash": "2.0.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "dtslint": "^0.9.3",
