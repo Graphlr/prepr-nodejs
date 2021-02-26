@@ -1,6 +1,8 @@
 Prepr REST API for Node.js
 ================================
 
+Deprecated, please use https://github.com/preprio/nodejs-sdk instead.
+
 This repository contains the open source Node.js client for Prepr REST API.
 
 Requirements
